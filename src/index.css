@@ -1,0 +1,50 @@
+*{ font-family: arial, sans-serif;
+  margin: 0;
+}
+body,
+body > div {
+  height: 100vh;
+  width: 100vw;
+  background-color: #87c0df;
+}
+#container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#container > div {
+  display: flex;
+}
+#navbar {
+  padding: 2em;
+  justify-content: space-evenly;
+}
+#main-section {
+  flex-grow: 1;
+}
+#main-section > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.red {
+  background-color: #b05f6d;
+  color: white;
+
+}
+.blue {
+  background-color: #275db3;
+  color: white;
+}
+
+.home{
+  background-color: #f0f0f0;
+}
+
+.Footer{
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  height: 2.5rem;  
+}
